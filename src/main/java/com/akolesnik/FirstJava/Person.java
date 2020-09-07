@@ -4,7 +4,7 @@ public class Person {
     String firstName;
     String lastName;
 
-    Person() {
+    public Person() {
        this.firstName = "Alexey";
        this.lastName = "Kolesnik";
     }
@@ -16,9 +16,7 @@ public class Person {
 
     @Override
     public String toString() {
-        return "Person{" +
-                "firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                '}';
+        return  firstName + " " + lastName;
+
     }
 }
